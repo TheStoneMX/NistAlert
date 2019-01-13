@@ -1,0 +1,28 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BioTechSysNistAlert.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="snsp_userName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ansi_nist@biometrics-solutions.com</Value>
+    </Setting>
+    <Setting Name="snsp_popMail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mail.biometrics-solutions.com</Value>
+    </Setting>
+    <Setting Name="snsp_password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">a12345678</Value>
+    </Setting>
+    <Setting Name="snsp_Pop3Port" Type="System.String" Scope="User">
+      <Value Profile="(Default)">110</Value>
+    </Setting>
+    <Setting Name="ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Integrated Security=True;Database=Biometrics;Server=QUICK-SILVER\SQLEXPRESS;Connect Timeout=30&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Integrated Security=True;Database=Biometrics;Server=QUICK-SILVER\SQLEXPRESS;Connect Timeout=30</Value>
+    </Setting>
+    <Setting Name="MailTimer" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
