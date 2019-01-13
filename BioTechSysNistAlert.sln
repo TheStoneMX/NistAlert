@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioTechSysNistAlert", "BioTechSysNistAlert\BioTechSysNistAlert.csproj", "{DF67FFCB-1DFB-40D1-B637-A0620CD04E64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioTechSys.AnsiNist", "..\Libraries\BioTechSys.AnsiNist\BioTechSys.AnsiNist.csproj", "{3FE4290E-8624-4E7F-A4B2-2EBB9E61293C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioTechSys.Mail.Pop3", "..\Libraries\BioTechSys.Mail\BioTechSys.Mail.Pop3\BioTechSys.Mail.Pop3.csproj", "{2131F1FC-1A18-4EB8-B379-49C66E1539F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF67FFCB-1DFB-40D1-B637-A0620CD04E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF67FFCB-1DFB-40D1-B637-A0620CD04E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF67FFCB-1DFB-40D1-B637-A0620CD04E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF67FFCB-1DFB-40D1-B637-A0620CD04E64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE4290E-8624-4E7F-A4B2-2EBB9E61293C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE4290E-8624-4E7F-A4B2-2EBB9E61293C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE4290E-8624-4E7F-A4B2-2EBB9E61293C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE4290E-8624-4E7F-A4B2-2EBB9E61293C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2131F1FC-1A18-4EB8-B379-49C66E1539F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2131F1FC-1A18-4EB8-B379-49C66E1539F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2131F1FC-1A18-4EB8-B379-49C66E1539F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2131F1FC-1A18-4EB8-B379-49C66E1539F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
